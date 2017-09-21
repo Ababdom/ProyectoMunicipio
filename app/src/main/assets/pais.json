@@ -1,0 +1,40 @@
+{
+  "departamentos": [
+    {
+      "nombre": "La Paz",
+      "nro_provincias" : 20
+    },
+    {
+      "nombre": "Oruro",
+      "nro_provincias": 16
+    },
+    {
+      "nombre": "Potosí",
+      "nro_provincias" : 16
+    },
+    {
+      "nombre": "Cochabamba",
+      "nro_provincias" : 16
+    },
+    {
+      "nombre": "Chuquisaca",
+      "nro_provincias" : 10
+    },
+    {
+      "nombre": "Tarija",
+      "nro_provincias" : 6
+    },
+    {
+      "nombre": "Pando",
+      "nro_provincias" : 6
+    },
+    {
+      "nombre": "Beni",
+      "nro_provincias" : 8
+    },
+    {
+      "nombre": "Santa Cruz",
+      "nro_provincias" : 15
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorPrimaryLigth">#C8E6C9</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="bgLigth">#F0F4C3</color>
+    <color name="pLigth">#99daf74b</color>
+    <color name="bgMunicipio">#bad0f483</color>
+
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="icons">#FFFFFF</color>
+</resources>

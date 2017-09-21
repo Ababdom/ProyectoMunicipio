@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+
+    tools:context="com.arbp.richard.proyectomunicipios.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARCO NORMATIVO SERVIDOR PUBLICO"
+        android:gravity="center_horizontal"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btnLey1178"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:text="LEY 1178 "
+        android:background="@drawable/pdf1"
+        android:layout_alignTop="@+id/btnLey2027"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+    <Button
+        android:id="@+id/btnLey2027"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:text="LEY 2027"
+        android:background="@drawable/pdf1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="33dp" />
+    <Button
+        android:id="@+id/btnLey2341"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:text="LEY 2341"
+        android:background="@drawable/pdf1"
+        android:layout_alignTop="@+id/btnLey482"
+        android:layout_alignLeft="@+id/btnLey2027"
+        android:layout_alignStart="@+id/btnLey2027" />
+
+    <Button
+        android:id="@+id/btnLey482"
+        android:background="@drawable/pdf1"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:text="LEY 482"
+        android:layout_below="@+id/btnLey1178"
+        android:layout_alignLeft="@+id/btnLey1178"
+        android:layout_alignStart="@+id/btnLey1178"
+        android:layout_marginTop="28dp" />
+
+
+</RelativeLayout>
